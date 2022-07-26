@@ -6,7 +6,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mateuso12/desafio-to-do-list?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/mateuso12/desafio-to-do-list?style=for-the-badge)
 
-<img src="listit.svg" alt="Logo list it">
+<img src="src/assets/listit.svg" alt="Logo list it">
 
 > Um app para listar suas tarefas do dia a dia.
 

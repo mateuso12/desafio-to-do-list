@@ -71,7 +71,7 @@ export function TaskList() {
     <div className="flex flex-col items-center">
       <div className="flex relative items-center w-[23.5rem] md:w-[736px] h-[3rem] md:h-[3.313rem] -top-7">
         <form onSubmit={handleCreateNewTask} className='flex h-full gap-2 w-full'>
-          <input type="text" value={taskText} onChange={handleNewTaskTextChange} placeholder="Escreva aqui uma nova tarefa" className="invalid:outline-red-500 bg-gray-600 text-yellow-500 placeholder-gray-400 focus:outline-yellow-400 w-[39.875rem]  h-full rounded-md border-none" />
+          <input type="text" value={taskText} onChange={handleNewTaskTextChange} placeholder="Escreva aqui uma nova tarefa" className="invalid:outline-red-500 bg-gray-600 text-yellow-500 placeholder-gray-400 focus:rounded-md focus:outline-yellow-400 w-[39.875rem]  h-full rounded-md border-none" />
           <button type="submit" disabled={isNewTaskEmpty} className="flex items-center disabled:bg-yellow-600 justify-center w-[12rem] md:w-[5.625rem] bg-yellow-400 hover:bg-yellow-500 h-full focus: outline-yellow-400 rounded-md text-blue-600 border-none transition-all">
             Criar <PlusCircleIcon className="h-5 w-5" />
           </button>

@@ -24,9 +24,6 @@ module.exports = {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
     },
-    screens: {
-      md:{ 'min':"736px", 'max': '1023px'},
-    }
   },
   plugins: [
     require('@tailwindcss/forms'),
